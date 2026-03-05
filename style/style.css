@@ -24,8 +24,59 @@ body {
 }
 /*--------------------------------------------------------------------------------------*/
 
+nav {
+  background-color: #1b2226;
+  height: 57px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
+}
 
-/*Nav aqui*/
+nav .nav-lado-1 {
+  display: flex;
+}
+
+nav .nav-lado-1 img {
+  margin-top: 2px;
+}
+
+nav .nav-lado-1 input {
+  background-color: #38434f;
+  width: 85%;
+  height: 28px;
+  border: none;
+  border-radius: 4px;
+  background-image: url(../assets/images/ico/icone-busca.svg);
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  background-size: 20px;
+  padding: 10px 10px 10px 35px;
+  margin-left: 5px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: var(--texto-principal);
+}
+
+nav ul li a {
+  color: var(--texto-principal);
+}
+
+nav img {
+  width: 24px;
+}
+
+.ico-solucoes {
+  border-left: 1px solid var(--texto-principal);
+  padding-left: 10px;
+}
 
 /*Lado 1 da pagina*/
 .container {
@@ -118,5 +169,3 @@ body {
 
 /*---------------------------------------------------------------------------*/
 /*Lado 2 da pagina*/
-
-
