@@ -15,12 +15,25 @@ li {
 
 body {
   background-color: #000;
+  font-family: minhaFonte;
 }
 /*Variaveis*/
 :root {
   --fundo-card: #1b2226;
   --texto-principal: #fff;
   --cor-links: #70b5f9;
+  --branco-secundario: #ffffff99;
+}
+
+/* Fonts */
+
+@font-face {
+  font-family: minhaFonte;
+  src: url(../assets/fonts/Segoe\ UI.ttf);
+}
+@font-face {
+  font-family: minhaFonteBold;
+  src: url(../assets/fonts/Segoe\ UI\ Bold.ttf);
 }
 /*--------------------------------------------------------------------------------------*/
 
@@ -117,7 +130,7 @@ nav img {
 
 .lado-1 .info-perfil-baixo {
   display: flex;
-  height: 50%;
+  height: 57%;
   background-color: var(--fundo-card);
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -129,10 +142,12 @@ nav img {
   margin-left: 30px;
   margin-right: 150px;
 }
-.info-perfil-baixo .baixo-lado-2 {
-  color: var(--texto-principal);
-  padding-top: 44px;
-  margin-left: 30px;
+
+.info-perfil-baixo .baixo-lado-1 p {
+  font-size: 13px;
+}
+.info-perfil-baixo .baixo-lado-1 span {
+  color:var(--branco-secundario);
 }
 
 .lado-1 .baixo-lado-1-div-links {
@@ -152,6 +167,12 @@ nav img {
   border-radius: 15px;
 }
 
+.info-perfil-baixo .baixo-lado-2 {
+  color: var(--texto-principal);
+  padding-top: 44px;
+  margin-left: 30px;
+}
+
 .lado-1 .baixo-lado-2 div {
   display: flex;
 }
@@ -165,7 +186,68 @@ nav img {
   margin-right: 10px;
 }
 /*---------------------------------------------------------------------- */
-/*Destaques aqui*/
+
+.lado-1 .destaques {
+  background-color: var(--fundo-card);
+  margin-top: 38px;
+  border-radius: 10px;
+  height: 300px;
+}
+
+.destaques h3 {
+  color: var(--texto-principal);
+  padding-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  font-family: minhaFonte;
+}
+
+.destaques .div-destaque-card {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.destaque-card .destaque-card-titulo {
+  padding-left: 10px;
+}
+
+.destaques .destaque-card-titulo :first-child {
+  color: var(--branco-secundario);
+  font-size: 13px;
+}
+
+.div-destaque-card .destaque-card {
+  width: 30.55%;
+  border: 1px solid var(--branco-secundario);
+  border-radius: 10px;
+  color: var(--texto-principal);
+}
+
+.destaque-card .destaque-card-titulo {
+  margin: 10px 0px 5px 10px;
+}
+.div-destaque-card .destaque-card img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  margin-bottom: 3px;
+}
+
+.destaque-card .destaque-card-coment {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  padding: 0px 10px 0px 10px;
+
+}
+
+.destaque-card .destaque-card-coment p{
+  color: var(--branco-secundario);
+  font-size: 15px;
+}
+
+
+
 
 /*---------------------------------------------------------------------------*/
 /*Lado 2 da pagina*/
