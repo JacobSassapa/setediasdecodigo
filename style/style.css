@@ -147,7 +147,7 @@ nav img {
   font-size: 13px;
 }
 .info-perfil-baixo .baixo-lado-1 span {
-  color:var(--branco-secundario);
+  color: var(--branco-secundario);
 }
 
 .lado-1 .baixo-lado-1-div-links {
@@ -238,16 +238,77 @@ nav img {
   justify-content: space-between;
   margin-bottom: 5px;
   padding: 0px 10px 0px 10px;
-
 }
 
-.destaque-card .destaque-card-coment p{
+.destaque-card .destaque-card-coment p {
   color: var(--branco-secundario);
   font-size: 15px;
 }
 
+/*---------------------------------------------------------------------- */
+.lado-1 .card-atividades {
+  background-color: var(--fundo-card);
+  margin-top: 10px;
+  padding-right: 25px;
+  border-radius: 10px;
+}
 
+.card-atividades h3 {
+  padding-top: 15px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  color: var(--texto-principal);
+}
 
+.card-atividades a {
+  margin-left: 15px;
+  font: 13px;
+}
 
+.card-atividades .atividade {
+  padding-top: 15px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+}
+
+.atividade .autor-post {
+  color: var(--branco-secundario);
+}
+.atividade .post {
+  display: flex;
+  margin-top: 10px;
+  color: var(--texto-principal);
+}
+
+.post img {
+  width: 95px;
+  margin-right: 10px;
+}
+
+.atividade .coments {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  color: var(--branco-secundario);
+}
+
+.atividade hr{
+  margin: 10px 0px 10px 0px;
+}
+
+.atividade .mais-atividades{
+  text-align: center;
+  padding-bottom: 10px;
+  color: var(--branco-secundario);
+}
+/*---------------------------------------------------------------------- */
+.lado-1 .sobre{
+  color: var(--texto-principal);
+}
+/*---------------------------------------------------------------------- */
+.sobre p{
+  margin-left: 15px;
+  padding-bottom: 20px;
+}
 /*---------------------------------------------------------------------------*/
 /*Lado 2 da pagina*/
