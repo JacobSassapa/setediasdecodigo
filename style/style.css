@@ -188,18 +188,8 @@ nav img {
 /*---------------------------------------------------------------------- */
 
 .lado-1 .destaques {
-  background-color: var(--fundo-card);
   margin-top: 38px;
-  border-radius: 10px;
   height: 300px;
-}
-
-.destaques h3 {
-  color: var(--texto-principal);
-  padding-top: 15px;
-  margin-bottom: 10px;
-  margin-left: 15px;
-  font-family: minhaFonte;
 }
 
 .destaques .div-destaque-card {
@@ -229,7 +219,6 @@ nav img {
 .div-destaque-card .destaque-card img {
   width: 100%;
   height: 120px;
-  object-fit: cover;
   margin-bottom: 3px;
 }
 
@@ -247,17 +236,7 @@ nav img {
 
 /*---------------------------------------------------------------------- */
 .lado-1 .card-atividades {
-  background-color: var(--fundo-card);
-  margin-top: 10px;
   padding-right: 25px;
-  border-radius: 10px;
-}
-
-.card-atividades h3 {
-  padding-top: 15px;
-  margin-bottom: 5px;
-  margin-left: 15px;
-  color: var(--texto-principal);
 }
 
 .card-atividades a {
@@ -292,23 +271,61 @@ nav img {
   color: var(--branco-secundario);
 }
 
-.atividade hr{
+.atividade hr {
   margin: 10px 0px 10px 0px;
 }
 
-.atividade .mais-atividades{
+.atividade .mais-atividades {
   text-align: center;
   padding-bottom: 10px;
   color: var(--branco-secundario);
 }
 /*---------------------------------------------------------------------- */
-.lado-1 .sobre{
+.lado-1 .sobre {
   color: var(--texto-principal);
 }
 /*---------------------------------------------------------------------- */
-.sobre p{
+
+.sobre p {
   margin-left: 15px;
   padding-bottom: 20px;
 }
+/*---------------------------------------------------------------------- */
+.experiencias {
+  padding-bottom: 10px;
+}
+.experiencias .empresa {
+  display: flex;
+  margin-left: 14px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.empresa img {
+  width: 40px;
+}
+
+.nome-empresa p {
+  color: var(--texto-principal);
+  margin-left: 5px;
+}
+
+.experiencias .lista-experiencias {
+  margin-left: 30px;
+}
+.experiencias .lista-experiencias li {
+  color: var(--texto-principal);
+  display: flex;
+  margin-bottom: 15px;
+}
+.experiencias .lista-experiencias li span {
+  display: block;
+  color: var(--branco-secundario);
+  font-size: 13px;
+}
+.experiencias .lista-experiencias li img {
+  margin-right: 20px;
+}
+
 /*---------------------------------------------------------------------------*/
 /*Lado 2 da pagina*/

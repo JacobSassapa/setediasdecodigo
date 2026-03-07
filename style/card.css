@@ -1,0 +1,13 @@
+.card {
+  background-color: var(--fundo-card);
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.card h3 {
+  padding-top: 15px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  color: var(--texto-principal);
+  font-family: minhaFonte;
+}
