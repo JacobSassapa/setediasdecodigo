@@ -291,7 +291,7 @@ nav img {
   padding-bottom: 20px;
 }
 /*---------------------------------------------------------------------- */
-.experiencias {
+.lado-1 .experiencias {
   padding-bottom: 10px;
 }
 .experiencias .empresa {
@@ -327,5 +327,51 @@ nav img {
   margin-right: 20px;
 }
 
+.formacao {
+  padding-bottom: 20px;
+}
+.formacao ul {
+  margin-left: 14px;
+}
+
+.formacao ul li{
+  display: flex;
+  margin-top: 15px;
+  color:var(--texto-principal);
+}
+
+.formacao ul li img{
+  width: 60px;
+  margin-right: 10px;
+}
+
+.formacao ul li span{
+  display: block;
+  color: var(--branco-secundario);
+}
+
+.idiomas{
+  padding-bottom: 20px;
+}
+
+.lado-1 .idiomas{
+  padding-right: 25px;
+}
+
+.idiomas ul{
+  margin-left: 10px;
+  color: var(--texto-principal);
+}
+
+.idiomas ul li span{
+  color: var(--branco-secundario);
+  font-size: 13px;
+}
+
+.idiomas ul hr{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: var(--branco-secundario);
+}
 /*---------------------------------------------------------------------------*/
 /*Lado 2 da pagina*/
