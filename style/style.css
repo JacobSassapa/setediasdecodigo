@@ -376,3 +376,41 @@ nav img {
 /*---------------------------------------------------------------------- */
 /*---------------------------------------------------------------------------*/
 /*Lado 2 da pagina*/
+
+
+.lado-2 .card{
+  margin-top: 15px;
+  width: 150%;
+  max-width: 280px;
+  color: var(--texto-principal);
+  height: 500px;
+}
+
+.lado-2 .card img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 15px;
+  margin-right: 8px;
+}
+
+.lado-2 .card ul li{
+  display: flex;
+  padding-top: 20px;
+
+}
+
+.lado-2 .card ul li span{
+  color: var(--branco-secundario);
+  font-size: 13px;
+}
+
+.lado-2 .card ul li a{
+  position: relative;
+  top: 8px;
+  border: 1px solid var(--texto-principal);
+  font-size: 12px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 15px;
+  color: var(--texto-principal);
+}
